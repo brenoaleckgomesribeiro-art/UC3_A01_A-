@@ -10,11 +10,11 @@ class Filme:
     def marcar_como_assistido(self):
         self.assistido = True
 
-# Exemplo de uso da classe Filme
+# Cria um objeto da classe Filme com título "Gente Grande" e duração de 120 minutos
 Gente_Grande = Filme("Gente Grande", 120)
 Todo_Mundo_Em_Panico = Filme("Todo Mundo em Pânico", 90)
 
-# Marcar o filme "Gente Grande" como assistido  
+# Marcar o filme "Gente Grande" como assistido
 Gente_Grande.marcar_como_assistido()
 
 # Verificar o status de assistido dos filmes
